@@ -1,0 +1,22 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Deep Learning Framework (using CPU-only wheels for portability)
+torch==2.12.0
+torchvision==0.27.0
+
+# Experiment Tracking
+mlflow==3.12.0
+
+# Web Interface and Drawing Canvas
+streamlit==1.57.0
+streamlit-drawable-canvas==0.9.3
+
+# Image Processing and Computer Vision
+opencv-python-headless==4.10.0.84
+pillow==12.2.0
+
+# Data Manipulation & Metrics
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
